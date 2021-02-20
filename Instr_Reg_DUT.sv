@@ -12,7 +12,7 @@ timeunit 1ns; timeprecision 1ns;
 initial begin
 
 if ($test$plusargs("monitor_register”))
-$monitor("@%0t:In Xm clk=%0b, reset_n=%0d, write_pointer=%0d", $realtime, clk, reset_n, write_pointer);
+$monitor("@%0t:In %m clk=%0b, reset_n=%0d, write_pointer=%0d", $realtime, clk, reset_n, write_pointer);
 end
 instruction_t iw_reg [0:31]; // an array of instruction_word structures
 
