@@ -51,7 +51,7 @@ endtask
 
 virtual task report();
 
-scb_h.report();
+  scb_h.report(); 
 drv_h.report();
 gen_h.report();
 mon_h.report();
