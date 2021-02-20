@@ -10,5 +10,5 @@ endtask
 virtual task report();
 endtask
 
-endclass: Component 
+endclass: Component  
  
