@@ -16,14 +16,14 @@ typedef class Driver;
 typedef class Generator;
 typedef class BaseTest;
 
-'include "class_files/transaction.svh"
-'include “class_files/dividebyzero.svh"
-'include “class_files/nodividebyzero.svh"
-'include "class_files/component.svh"
-'include "class_files/scoreboard.svh"
-'include “class_files/monitor.svh"
-'include “class_files/driver.svh"
-'include "class_files/generator.svh"
-'include "class_files/basetest.svh"
+'include "class_files/Class_Transaction.svh"
+'include “class_files/Class_DivideByZero.svh"
+'include “class_files/Class_NoDividedByZero.svh"
+'include "class_files/Class_Component.svh"
+'include "class_files/Class_Scoreboard.svh"
+'include “class_files/Class_Monitor.svh"
+'include “class_files/Class_Driver.svh"
+'include "class_files/Class_Generator.svh"
+'include "class_files/Class_Base_Test.svh"
 
 endpackage: instr_register_test_pkg
