@@ -56,6 +56,6 @@ drv_h.report();
 gen_h.report();
 mon_h.report();
 
-endtask : report
+endtask : report 
 
 endclass: BaseTest
