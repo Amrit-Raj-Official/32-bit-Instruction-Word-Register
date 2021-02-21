@@ -3,7 +3,6 @@ module top();
 timeunit 1ns; timeprecision lns;
 
 initial $timeformat(-9,®@, "ns", 3);
-
 // user-defined types are defined in instr_register_pkg.sv
 
 import instr_register_test_pkg: :*;
