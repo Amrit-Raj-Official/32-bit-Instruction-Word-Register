@@ -7,10 +7,10 @@ this.v_io = v_io;
 endfunction
 
 virtual task reset();
-v_io.write_pointer <= 5'he@; // initialize write pointer
+v_io.write_pointer <= 5'h0; // initialize write pointer
 v_io.read_pointer <= 5'hlF; // initialize read pointer
-v_io.load_en <= 1'bé@; // initialize load control line
-v_io.reset_n <= 1'b@; // assert reset_n (active low) - should be non-blocking
+v_io.load_en <= 1'b0; // initialize load control line
+v_io.reset_n <= 1'b0; // assert reset_n (active low) - should be non-blocking
 repeat (2) @(posedge v_io.clk) ; // hold in reset for 2 clock cycles
 v_io.reset_n <= 1’bl; // deassert reset_n (active low)
 
