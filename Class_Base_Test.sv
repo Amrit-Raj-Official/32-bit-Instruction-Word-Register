@@ -13,7 +13,9 @@ scb_h = new();
 drv_h = new(instr_register_test_pkg::v_io);
 mon_h = new(instr_register_test_pkg::v_io, scb_h);
 gen_h = new(drv_h, scb_h);
+  
 // call the build of any children
+  
 scb_h.build({);
 drv_h.build();
 gen_h.build();
