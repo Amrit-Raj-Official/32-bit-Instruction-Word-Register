@@ -2,6 +2,7 @@ class Scoreboard extends Component;
 Transaction sent_trn[address_t];
 Transaction trnh; // transaction handle for covergroup
 covergroup cg_transaction;
+  
 // Cover write_pointer in four bins, where each bin covers one quadrant (1/4) of the address space
 
 ADDR: coverpoint trn_h.write_pointer {
