@@ -1,10 +1,11 @@
+
 package instr_register_pkg;
 
 timeunit lns; timeprecision 1ns;
 
 typedef enum logic [3:0] {
 ZERO,
-
+  
 PASSA,
 
 PASSB,
