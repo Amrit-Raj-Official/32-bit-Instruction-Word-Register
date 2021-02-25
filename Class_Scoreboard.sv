@@ -27,7 +27,7 @@ bins pos_A = {[1:31]};
 
 OPB: coverpoint trn_h.operand_b {
 bins neg_B = {[-31:-1]};
-bins zero_B = { Q };
+  bins zero_B = { 0 };
 bins pos_B = {[1:31]};
 }
 
