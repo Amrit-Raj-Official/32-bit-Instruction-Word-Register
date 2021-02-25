@@ -37,7 +37,7 @@ instr_register dut (
 
 // clock oscillator
 initial begin
-clk <= @;
+clk <= 0;
 
 forever #5 clk = ~clk;
 end
