@@ -1,4 +1,5 @@
 class Component;
+ 
 virtual task build();
 endtask
 virtual task reset();
