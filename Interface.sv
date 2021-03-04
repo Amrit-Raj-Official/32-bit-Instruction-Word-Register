@@ -17,7 +17,6 @@ address_t write_pointer, read_pointer;
 instruction_t instruction_word;
 
 modport tb (output load_en, reset_n, opcode, operand_a, operand_b,
-write_pointer, read_pointer,
-input clk, instruction_word) ;
+write_pointer, read_pointer,input clk, instruction_word) ;
 
 endinterface: tb_ifc
